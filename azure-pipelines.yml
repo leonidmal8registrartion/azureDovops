@@ -21,4 +21,4 @@ steps:
   - task: PowerShell@2
     inputs:
       targetType: 'inline'
-      script: 'POST https://dev.azure.com/leonidmal8registrartion/reiggerTest/_apis/leonidmal8registrartion.azureDovops/builds?api-version=5.0'
+      script: 'echo 'GOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO''
