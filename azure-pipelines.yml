@@ -17,10 +17,3 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-- task: TriggerPipeline@1
-  inputs:
-    serviceConnection: 'trigger'
-    project: 'b32c8965-6f2a-4655-8858-9ea83ec0126c'
-    Pipeline: 'Build'
-    buildDefinition: 'leonidmal8registrartion.azureDovops'
-    Branch: 'master'
